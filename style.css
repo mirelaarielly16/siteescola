@@ -38,3 +38,5 @@
              border-top: none;
              .botoes { display: block;
              }
+             .abas-textos{
+              background-color: var(--texto-fundo); }
