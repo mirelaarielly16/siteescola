@@ -1,10 +1,8 @@
 :root { --cor-de-fundo: #1E1E1E; --verde: #6FFF57; --branco: #FFFFFF; --botao-ativo:
     #3A375E; --botao-inativo: rgba(58, 55, 94, 0.5); --texto-fundo: rgba(58, 55, 94, 0.3); }
    body { background-color: var(--cor-de-
-    fundo);    color: var(--branco); font-family: ‘Chakra Petch’, sans-serif; }
-    // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 200 to 900
-    
+    fundo);    color: var(--branco); font-family:sans-serif; }
+   
     .reddit-sans-<uniquifier> {
       font-family: "Reddit Sans", sans-serif;
       font-optical-sizing: auto;
