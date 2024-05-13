@@ -15,6 +15,9 @@
         align-items: center;
         max-width: 1200px;
         width: 100%;
-        margin: 0 auto;
-        }
-        <h2 class=”titulo-principal”>Meus Objetivos do ano<span>_<span></h2>
+        margin: 0 auto;}
+
+        .titulo-principal { text-align: left;
+          width: 100%;
+          font-size: 32px;
+          }
