@@ -2,13 +2,7 @@
     #3A375E; --botao-inativo: rgba(58, 55, 94, 0.5); --texto-fundo: rgba(58, 55, 94, 0.3); }
    body { background-color: var(--cor-de-
     fundo);    color: var(--branco); font-family:sans-serif; }
-   
-    .reddit-sans-<uniquifier> {
-      font-family: "Reddit Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: italic;
-    }
+
     .conteudo-principal { display: flex;
         flex-direction: column;
         justify-content: center;
@@ -36,7 +30,24 @@
              border-left: 2px solid var(--botao-ativo);
              border-right: 2px solid var(--botao-ativo);
              border-top: none;
-             .botoes { display: block;
+             .botoes { display: block;}
+            .botao-ativo{background-color: var(--botao-ativo);
+            border-bottom: 4px solid var(--verde);}
+            .abas-conteudo{
+              display: none;
+            }
+            .abas-conteudo-titulo-principal{
+              font-size: 28px;
+              text-align: center;
+            }
+            .abas-conteudo-titulo-principal-secundario{
+              text-align: center;
+              color: var(--verde);
+              text-transform: uppercase;
+            }
+
+
+             @media screen and (min-width: 768px) {.botoes {display: flex;}}
+              .botao:first-child {border-radius: 40px 0 0 0;}
+              .botao:last-child {border-radius: 40px 0 0 0;}
              }
-             .abas-textos{
-              background-color: var(--texto-fundo); }
